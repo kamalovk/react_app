@@ -1,0 +1,18 @@
+
+body {
+  background:linear-gradient(rgb(232, 91, 111), rgb(17, 43, 77));
+  height: 95vh;
+}
+
+.dog-sector{
+  display: flex;
+  justify-content: center
+}
+.dog-sector > div:last-child {
+  margin-left: 100px;
+}
+
+.start-page {
+  text-align: center;
+  font-size: 35px;
+}

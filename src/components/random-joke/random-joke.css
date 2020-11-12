@@ -1,0 +1,46 @@
+.main-block {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.random-joke-block{
+  background: linear-gradient(to right, rgb(28, 146, 210), rgb(242, 252, 254));
+  height: 35vh;
+  width: 90%;
+  margin: 5vh;
+  padding: 20px;
+  box-shadow: 10px 10px;
+  transition: 1s;
+  font-size: 30px;
+}
+
+.random-joke-block:hover {
+  transform: scale(1.007)
+}
+
+.component-block {
+  height: 150px;
+}
+
+.random-joke-button {
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+  
+}
+.joke-list-button{
+  display: flex;
+}
+.joke-list{
+  width: 100px;
+  background-color: #fff;
+}
+.joke-list-ul {
+  list-style: none;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+

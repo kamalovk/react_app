@@ -1,0 +1,37 @@
+.dog-detail-div{
+  
+  width: 550px;
+  height: 80vh;
+  background-color: rgb(44, 40, 100);
+}
+
+.dog-detail-div > img {
+  width: 75%;
+  height: 400px;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border: 9px inset rgb(197, 192, 192);
+  
+  
+}
+.dog-detail-name {
+  text-transform: capitalize;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(231, 231, 231);
+}
+.dog-detail-start {
+  width: 550px;
+  height: 80vh;
+  background-color: rgb(44, 40, 100);
+  text-align: center;
+  font-size: 50px;
+  color: rgb(231, 231, 231);
+  box-sizing:border-box;
+  padding: 100px;
+  
+}
